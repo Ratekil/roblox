@@ -1159,6 +1159,10 @@ margin: 0 auto;
   height: 24px;
 }
 
+.burger-block-right__button-button {
+  width: 300px !important;
+}
+
 .banner-block{
   display: block;
   height: 908px;
