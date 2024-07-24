@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+
+<link href="styles.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+    <!-- header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-block">
+            <div class="header__logo">
+                <img src="image/Vector.svg" alt="Логотип" class="header__logo_logo">
+            </div>
+            <div class="header__menu">
+                <ul class="header__menu-menu">
+                    <li><a href="#">Информация</a></li>
+                    <li><a href="#">Как установить</a></li>
+                    <li><a href="#">Вопросы</a></li>
+                    <li><a href="#">Отзывы</a></li>
+                    <li><a href="#">Поддержка</a></li>
+                  </ul>
+            </div>
+
+            <button class="btn"><span>Установить Roblox</span></button>
+            <!-- <button class="btn" onclick="toggleMenu()">151515</button> -->
+
+                <div class="header__burger-menu" onclick="toggleMenu()"></div>
+            </div>
+
+        </div>
+        </div>
+    </header>
+
+    <main>
+
+    <!-- burger-menu -->
+    <div id="menu" class="burger-menu">
+        <div class="container">
+            <div class="burger-menu-block">
+                
+                <div class="burger-menu-block__header">
+                    <div class="burger-menu-block__header-logo">
+                        <img src="image/Vector.svg" alt="Логотип" class="header__logo_logo">
+                    </div>
+                    <span class="close" onclick="toggleMenu()"><img src="image/Icon_square-close.svg" alt="Закрыть"></span>
+                </div>
+
+                <div class="burger-menu-block__list">
+                    
+                    <div class="burger-menu-block__menu-mn">
+                        <ul class="burger-menu-block__menu-mns">
+                            <li><a href="#">Информация</a></li>
+                            <li><a href="#">Как установить</a></li>
+                            <li><a href="#">Поддержка</a></li>
+                          </ul>
+                    </div>
+
+                    
+                </div>
+
+                <div class="burger-menu-block__button">
+                    <button class="burger-block-right__button-button">Установить Roblox</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+     <!-- banner -->
+    <div class="banner">
+        <div class="container">
+            <div class="banner-block">
+       <div class="banner-block-left">
+        <h1>Погружайся в мир</h1>
+        <p>бесконечных возможностей</p>
+        <div class="banner-block__logo">
+            <img src="image/Logo white.svg" alt="Логотип" class="header__logo_logo">
+        </div>
+
+       </div>
+       <div class="banner-block-right">
+        <div class="banner-block-right__right-content">
+            <p class="banner-block-right__right-content-1 ellipse">Создавай </p>
+            <p class="banner-block-right__right-content-1 ellipse">Играй </p>
+        </div>
+        
+        <div class="banner-block-right__right-content-average">
+        <p class="banner-block-right__right-content-3  ellipse2">Делись <span>своими уникальными играми с миллионами игроков по всему миру</span> </p>
+     </div>
+        <div class="banner-block-right__button">
+            <button class="banner-block-right__button-button"> <img src="image/Window_Logo.svg" alt="Изображение">Скачать для Windows</button>
+            <p class="banner-block-right__button-text">Совместим с Windows 7 / 8.1 / 10</p>
+        </div>
+
+       </div>
+        </div>
+        </div>
+      </div>
+
+      <!-- text -->
+
+      <div class="text">
+        <div class="container">
+            <div class="text-block">
+                <p class="text-block__text">
+                    <span>Ваша  </span> <span> фантазия </span>  — ваш единственный <br> 
+                    предел. Начните своё <span> приключение  </span> <br> 
+                    <span>Roblox</span> уже сегодня!
+                </p>
+            </div>
+        </div>
+      </div>
+
+      <!-- advantages -->
+
+      <div class="advantages">
+        <div class="container">
+            <div class="advantages-block">
+
+                <div class="advantages-block__title">
+                    <h1 class="advantages-block__title-title">
+                        Основные функции и преимущества
+                    </h1>
+
+                </div>
+
+                <div class="advantages-block__games">
+                    <div class="advantages-block__games-picture">
+                        <img src="image/IMG_game_creation.jpg" alt="Преимущества" class="advantages-block__games-picture-picture">
+                        <h3 class="advantages-block__games-picture-tytle">Создание игр</h3>
+                        <p class="advantages-block__games-picture-text">Используйте Roblox Studio для создания уникальных игр и виртуальных миров. Легко и увлекательно!</p>
+
+                    </div>
+
+                    <div class="advantages-block__games-list">
+                        <img src="image/Icon_arow_1.svg" alt="Кнопка 1" class="advantages-buttons__buttons-1">
+                        <ul>
+                            <li class="advantages-buttons__active">Создание игр</li>
+                            <li>Социальное взаимодействие</li>
+                            <li>Персонализация аватаров</li>
+                            <li>Образовательные возможности</li>
+                            <li>Кроссплатформенность</li>
+                            <li>Безопасность</li>
+                          </ul>
+                          <img src="image/Icon_arow_2.svg" alt="Кнопка 1" class="advantages-buttons__buttons-2">
+                    </div>
+
+                </div>
+
+              
+
+
+
+            </div>
+
+        </div>
+
+      </div>
+
+      <!-- picture-->
+      <div class="picture">
+        <div class="container">
+            <div class="picture-block">
+            <div class="picture-block__button picture-block__button-wide">
+                <button class="picture-block-right__button-button picture__button-wide"> <img src="image/Window_Logo.svg" alt="Изображение">Скачать для Windows</button>
+            </div>
+        </div>
+        </div>
+
+      </div>
+
+
+      <!-- logos -->
+      <div class="logos">
+        <div class="container">
+        </div>
+      </div>
+
+      <!-- logos-mobil-->
+        <div class="logos-mobil">
+            <div class="container">
+            </div>
+            </div>
+
+      <!-- picture2-->
+      <div class="picture2">
+        <div class="container">
+        </div>
+      </div>
+
+      
+
+
+       <!-- reviews -->
+    <div class="reviews">
+        <div class="container">
+            <div class="reviews-block">
+                <h1>Отзывы</h1>
+                <ul class="review-block-cards">
+                    <li class="review-block-cards__card  review-block-cards_active">
+                        <img src="image/Photos1.png" alt="Изображение 1" class="review-block-cards__top-image">
+                        <div class="review-block-cards__card-content">
+                            <h3>Анна</h3>
+                            <p>Моя дочь любит играть в Roblox. <br> Ей нравится, что здесь можно не только <br> играть, но и создавать свои собственные <br>  игры. Это здорово развивает <br>  её креативность.</p>
+            
+                        </div>
+                        
+                    </li>
+                    
+                    <li class="review-block-cards__card">
+                        <img src="image/Photos2.png" alt="Изображение 1" class="review-block-cards__top-image">
+                        <div class="review-block-cards__card-content">
+                            <h3>Маша</h3>
+                            <p>Мне нравится Roblox, потому что здесь можно менять вавтаров и покупать разные вещи. Играю каждый день после школы!</p>
+            
+                        </div>
+                        
+                    </li>
+                    
+                    <li class="review-block-cards__card">
+                        <img src="image/Photos3.png" alt="Изображение 1" class="review-block-cards__top-image">
+                        <div class="review-block-cards__card-content">
+                            <h3>Денис</h3>
+                            <p>Это самая классная игра! Я могу быть кем угодно и делать что угодно. Моим друзьям тоже очень нравится, мы играем вместе каждый день.</p>
+            
+                        </div>
+                       
+                    </li>
+                </ul>
+
+            </div>
+            <div class="review-buttons">
+                <div class="review-buttons__buttons">
+                    <img src="image/Icon_arow_1.svg" alt="Кнопка 1" class="review-buttons__buttons-1">
+                    <img src="image/Icon_arow_2.svg" alt="Кнопка 1" class="review-buttons__buttons-2">
+
+                </div>
+
+            </div>
+        </div>
+      </div>
+
+    </main>
+
+      <!-- picture3-->
+      <div class="picture3">
+        <div class="container">
+        </div>
+      </div>
+
+    <!-- footer -->
+    <footer class="footer">
+        <div class="container">
+
+            <div class="footer-block2">
+            <div class="footer-block2__logo">
+                <div class="footer-block2__logo_av">
+                    <img src="image/footer_logo.svg" alt="Логотип" class="footer-block2__logo_av_img">
+                </div>
+
+            </div>
+            </div>
+
+            <div class="footer-block">
+
+                <div class="footer-block__logo">
+                    <div class="header__logo">
+                        <img src="image/footer_logo.svg" alt="Логотип" class="header__logo_logo">
+                    </div>
+
+                    <p>Политика конфиденциальности</p>
+
+                </div>
+
+                <div class="footer-block__menu">
+
+                    <h3>МЕНЮ</h3>
+
+                    <div class="footer-block__menu-mn">
+                        <ul class="footer-block__menu-mns">
+                            <li><a href="#">Информация</a></li>
+                            <li><a href="#">Как установить</a></li>
+                            <li><a href="#">Вопросы</a></li>
+                            <li><a href="#">Отзывы</a></li>
+                            <li><a href="#">Поддержка</a></li>
+                          </ul>
+                    </div>
+
+                    <p class="footer-block__privacy-av ">Политика конфиденциальности</p> 
+                </div>
+
+                <div class="footer-block__contacts">
+
+                    
+                    <div class="footer-block__contacts-top">
+                        <p class="footer-block__contacts-top-tytle">КОНТАКТНАЯ ИНФОРМАЦИЯ<p>
+
+                        <div class="footer-block__contacts-top-mail">
+                            <img src="image/mail.svg" alt="E-mail">
+                            <p>E-mail</p>
+                        </div>
+
+                    </div>
+                    
+                    <div class="footer-block__contacts-bottom">
+
+                        <h3 class="footer-block__contacts-bottom-tytle">СОЦИАЛЬНЫЕ СЕТИ</h3>
+
+                        <div class="footer-block__contacts-bottom-social">
+                        <a href="#"><img src="image/Icon_social_logo_inst.svg" alt="Inst"></a>
+                        <a href="#"><img src="image/Icon_social_logo_youtube.svg" alt="youtube"></a>
+                        <a href="#"><img src="image/Icon_social_logo_3.svg" alt="3"></a>
+                        <a href="#"><img src="image/Icon_social_logo_4.svg" alt="4"></a>
+                        <a href="#"><img src="image/Icon_social_logo_in.svg" alt="in"></a>
+                    </div>
+
+
+                    </div>
+
+                    
+
+                </div>
+
+                
+                <p class="footer-block__privacy ">Политика конфиденциальности</p> 
+
+                <div class="footer-block__picture">
+                    <img src="image/IMG_games.jpg" alt="IMG">
+
+                </div>
+
+            </div>
+            <div class="footer-block2__picture">
+                <img src="image/IMG_games_tablet.png" alt="IMG">
+
+            </div>
+        </div>
+
+
+    </footer>
+
+    <!--
+    <script>
+/*        var menuBtn = document.querySelector('.header__burger');
+        var menuList = document.querySelector('.burger-menu');
+        
+        menuBtn.addEventListener('click', function() {
+          menuList.classList.toggle('show-menu');
+        });
+
+        </script>
+         -->
+
+<script>
+    // Добавляем код для скрытия меню при загрузке страницы
+    window.onload = function() {
+      var menu = document.getElementById("menu");
+      menu.style.display = "none";
+    }
+
+    function toggleMenu() {
+      var menu = document.getElementById("menu");
+      menu.style.display = (menu.style.display === "none") ? "block" : "none";
+    }
+  </script>
+
+<script>
+    // изменение цвета кнопок
+    const spans = document.querySelectorAll('.text-block__text span');
+      
+    function changeColor(index) {
+      if (index >= spans.length) {
+        return;
+      }
+
+      const rect = spans[index].getBoundingClientRect();
+      const isVisible = rect.top < window.innerHeight && rect.bottom >= 0;
+
+      if (isVisible) {
+        setTimeout(() => {
+          setTimeout(() => {
+            spans[index].style.color = '#315DF8';
+            changeColor(index + 1);
+          }, 500);
+        }, 1000);
+      } else {
+        window.addEventListener('scroll', () => {
+          const rect = spans[index].getBoundingClientRect();
+          const isVisible = rect.top < window.innerHeight && rect.bottom >= 0;
+
+          if (isVisible) {
+            setTimeout(() => {
+              spans[index].style.color = '#315DF8';
+              changeColor(index + 1);
+            }, 500);
+          }
+        });
+      }
+    }
+
+    changeColor(0);
+  </script>
+
+</body>
+</html>

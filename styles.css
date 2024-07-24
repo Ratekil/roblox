@@ -1,0 +1,1549 @@
+
+
+
+
+/*
+*,
+*::after,
+*::before{
+box-sizing: inherit;
+}
+*/
+
+body{
+  margin: 0;
+}
+
+.container{
+    max-width: 1268px;
+padding-left: 86px;
+padding-right: 86px;
+margin: 0 auto;
+
+}
+
+.header-block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    
+    }
+
+.header__button-button{
+    background-color: #191919;
+    width: 228px;
+    height: 52px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    text-align: right;
+    padding: 14px 40px 16px 40px;
+    border-radius: 10px;
+    color: #fff;
+
+}
+
+.btn {
+  width: 228px;
+  height: 52px;
+  background-color: #191919;
+  color: white;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 17px;
+  font-size: 16px;
+  font-family: Inter;
+  font-weight: 600;
+}
+
+.btn span {
+  display: inline-block;
+  margin-top: 14px;
+  margin-bottom: 16px;
+}
+
+
+.header__logo{
+width: 192px;
+height: 35px;
+}
+
+.header__menu-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    gap: 20px;
+    list-style-type: none;
+    padding: 0;
+ 
+    }
+
+    .header__burger{
+      width: 40px;
+    }
+
+    .header__burger-menu {
+      background-image: url('image/burger-menu.svg');
+      background-size: cover;
+      width: 27px;
+      height: 19px;
+      display: none;
+   
+    }
+    
+
+    .header__menu-menu a {
+        text-decoration: none;
+        color: #191919;
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 22px;
+        text-align: left;
+        padding: 14px 0px 8px 0px;
+      }
+
+      .banner-block{
+        background-image: url(image/BG.png);
+        height: 716px;
+        border-radius: 28px;
+        background-size: cover;
+        background-position: center;
+      }
+
+      .banner-block{
+        color: #F1F7FF;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 130px;
+        font-family: Raleway;
+      }
+
+      .banner-block-left{
+        width: 591px;
+        height: 284px;
+        margin: 192px 0 240px 76px;
+      }
+
+      .banner-block-left h1{
+        font-family: Raleway;
+        font-size: 61px;
+        font-weight: 900;
+        line-height: 100px;
+        text-align: left;
+        margin-top: 0;
+        margin-bottom: 0;
+        height: 100px;
+      }
+
+      .banner-block-left p{
+        font-size: 39px;
+        font-weight: 900;
+        line-height: 64px;
+        text-align: left;
+        margin-top: 0;
+        margin-bottom: 0;
+        height: 64px;
+      }
+
+      .banner-block__logo{
+        width: 570px;
+        height: 108px;
+        padding-top: 20px;
+        margin-bottom: 26px;
+      }
+
+      .banner-block-right{
+        width: 391px;
+        height: 286px;
+      }
+
+        .banner-block-right__right-content{
+          display: flex;
+          justify-content: start;
+          align-items: center;
+          gap: 48px;
+          margin-left: 25px;
+          height: 44px;
+        }
+
+        .banner-block-right__right-content-1{
+          font-size: 32px;
+          font-weight: 700;
+          line-height: 41.6px;
+          position: relative;
+        }
+
+        .ellipse::before{
+          content: '';
+          position: absolute;
+          background-image: url(image/Ellipse.svg);
+          width: 12px;
+          height: 12px;
+          left: -28px;
+          top: 16px;
+      }
+
+      .ellipse2::before{
+        content: '';
+        position: absolute;
+        background-image: url(image/Ellipse.svg);
+        width: 12px;
+        height: 12px;
+        left: -28px;
+        top: 19px;
+    }
+
+    .banner-block-right{
+      margin-right: 86px;
+    }
+    
+
+      .banner-block-right__right-content-average{
+        margin-left: 25px;
+        font-family: Inter;
+        position: relative;
+        height: 92px;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 0px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+      }
+
+
+
+      .banner-block-right__button{
+        height: 102px;
+        
+      }
+
+      .banner-block-right__button-button{
+        background-color: #315DF8;
+        width: 383px;
+        height: 68px;
+        border-radius: 12px;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 28px;
+        text-align: left;
+        color: #fff;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 28px;
+        text-align: left;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 7px;
+        border: 0;
+      }
+     
+      .banner-block-right__button-button img{
+        padding: 4px;
+      }
+
+      .banner-block-right__right-content-3{
+        margin: 0;
+        height: 44px;
+      }
+
+      .banner-block-right__right-content-3 span{
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 26px;
+        text-align: left;
+      }
+
+      .banner-block-right__button-text {
+        text-align: center;
+      }
+      
+      .banner-block-right__button-text{
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 22px;
+        color: #FFFFFF99;
+        margin-top: 12px;
+      }
+     
+      .text{
+        background-color: #22282F;
+        max-width: 1440px;
+        height: 312px;
+        margin: 0 auto;
+      }
+
+      .text-block{
+        display: flex;
+        align-items: center; 
+        justify-content:center;
+        margin-top: 132px;
+      }
+
+      .text-block__text{
+        font-family: Inter;
+        font-size: 34px;
+        font-weight: 600;
+        line-height: 44px;
+        text-align: center;
+        color: #F1F7FF;
+      }
+      
+      .text-block__text span{
+        color: #F1F7FF;
+        font-family: Inter;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 64px;
+        text-align: center;
+      }
+
+      .advantages-block__games{
+        display: flex;
+      }
+
+      .advantages-block__title-title{
+        color: #191919;
+        font-family: Raleway;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 58px;
+        text-align: center;
+        padding: 132px 114px 92px 114px;
+
+      }
+
+      .picture{
+        max-width: 1440px;
+        margin: 0 auto;
+        margin-top: 0px;
+        margin-top: 140px;
+      }
+
+      .advantages-block__games-picture-tytle{
+        display: none;
+      }
+
+      .advantages-block__games-picture{
+        width: 664px;
+        height: 524px;
+      }
+      
+      .advantages-block__games-picture-text{
+        height: 52px;
+        font-family: Inter;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 26px;
+        text-align: left;
+
+      }
+
+      .advantages-block__games-list{
+        margin-left: 64px;
+        width: 540px;
+        height: 524px;
+      }
+
+      .advantages-buttons__buttons-1{
+        display: none;
+      }
+
+      .advantages-buttons__buttons-2{
+        display: none;
+      }
+      
+
+   .advantages-block__games-list ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .advantages-block__games-list li {
+    position: relative;
+    padding-left: 61px;
+    margin-bottom: 59px;
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 34px;
+    text-align: left;
+    color: #757575;
+
+  }
+  
+  .advantages-block__games-list li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 5px;
+    width: 20px;
+    height: 20px;
+    background-color: #E8E8E8;
+    border-radius: 50%;
+  }
+  
+
+  .advantages-buttons__active::before {
+    content: url(image/Icon_lego.svg) !important;
+    position: absolute;
+    left: -9px!important;
+    top: 5px;
+    width: 20px;
+    height: 20px;
+    /*
+    background-color: #E8E8E8;
+    border-radius: 50%;
+    */
+    z-index: 5;
+  }
+
+  .advantages-block__games-list li:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    left: 9px;
+    top: 10px;
+    width: 1px;
+    height: calc(300%);
+    background-color: #E8E8E8;
+  }
+
+  .picture-block{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+  }
+
+
+  .advantages-block__button-wide{
+    width: 540px;
+    position: absolute;
+    bottom: -10px;
+  } 
+
+  .picture{
+  background-image: url(image/Dark_Rectangles.jpg);
+  height: 212px;
+  background-size: cover;
+  background-position: center;
+  width: 1440px;
+  margin: 0 auto;
+  margin-top: 140px;
+  }
+
+  .picture-block__button-wide {
+    width: 540px;
+    position: absolute;
+    bottom: -10px;
+  }
+  .picture-block-right__button-button {
+    background-color: #315DF8;
+    width: 383px;
+    height: 68px;
+    border-radius: 12px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: left;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    border: 0;
+  }
+  
+  .logos {
+    background-image: url(image/logos.png);
+    background-size: cover;
+    background-position: center;
+    height: 849px;
+    width: 1440px;
+    margin: 0 auto;
+  }
+
+  .picture2 {
+    background-image: url(image/Dark_Rectangles.png);
+    background-size: cover;
+    background-position: center;
+    height: 144px;
+    width: 1440px;
+    margin: 0 auto;
+  }
+
+  .reviews-block{
+    margin-top: 92px;
+  }
+
+  .reviews-block h1{
+    font-family: Raleway;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    text-align: center;
+    padding-bottom: 76px;
+    margin: 0;
+
+  }
+
+  .review-block-cards {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0 0 0 0;
+    gap: 28px;
+    color: #191919;
+    font-family: Inter;
+}
+
+.review-block-cards__card {
+    border-radius: 16px;
+    padding: 24px;
+    margin-bottom: 20px;
+    background-color: #F1F7FF;
+    width: 350px;
+    height: 436px;
+    box-sizing: border-box;
+   
+}
+.review-block-cards__top-image {
+    width: 302px;
+    height: 212px;
+}
+
+.review-block-cards__card-content {
+    margin-top: 20px;
+}
+
+.review-block-cards__card-content h3 {
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 28px;
+  text-align: center;
+  margin-top: 0;
+}
+
+
+.review-block-cards__center-image {
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+    top: 147px;
+    left: 155px;
+    width: 88px;
+}
+
+.review-block-cards_active{
+  width: 512px;
+  height: 600px;
+  padding: 32px;
+}
+
+.review-block-cards_active img{ 
+  width: 448px !important;
+  height: 308px !important;
+}
+
+.review-block-cards_active h3{ 
+  font-family: Inter;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 34px;
+}
+
+.review-block-cards_active p{
+font-size: 20px;
+font-weight: 400;
+line-height: 26px;
+}
+
+.review-buttons{
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  position: relative;
+}
+
+.review-buttons__buttons{
+  gap: 60px;
+  display: flex;
+  position: absolute;
+  bottom: 40px;
+  }
+
+  .footer{
+    height: 408px;
+    background-color: #191919;
+    color: #fff;
+    max-width: 1440px;
+    margin: 0 auto;
+    font-family: Inter;
+  }
+
+  .footer-block{
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    padding-top: 92px;
+    padding-bottom: 92px;
+
+  }
+
+  .footer-block__logo p{
+    color: grey;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18.2px;
+    text-align: left;
+    padding-top: 170px;
+    margin: 0;
+  }
+
+  .footer-block__logo{
+    width: 222px;
+    height: 224px;
+
+  }
+
+
+  .footer-block__menu{
+    width: 124px;
+    height: 224px;
+    margin-left: 155px;
+  }
+
+  .footer-block__menu h3{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    text-align: left;
+    margin: 0;
+    color: grey;
+  }
+
+  .footer-block__menu ul{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+ 
+  }
+
+  .footer-block__menu a{
+    color: #fff;
+    margin-top: 18px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    text-align: left;
+
+  }
+
+  .footer-block__menu-mn{
+    width: 124px;
+    height: 174px;
+    padding-top: 13px;
+  }
+
+  .footer-block__menu-mns {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-block__menu-mns li {
+    margin-top: 16px;
+  }
+ 
+  .footer-block__contacts{
+    width: 234px;
+    height: 224px;
+  }
+
+  .footer-block__contacts-top{
+    width: 234px;
+    height: 74px;
+    gap: 28px;
+  }
+
+  .footer-block__contacts-top-tytle{
+    margin: 0;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    text-align: left;
+    color: grey;
+  }
+
+  .footer-block__contacts-bottom-tytle{
+    margin: 0;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    text-align: left;
+    color: grey;
+  }
+
+  .footer-block__contacts-top-mail{
+    display: flex;
+    gap: 8px;
+  }
+
+  .footer-block__contacts-bottom{
+    width: 216px;
+    height: 74px;
+    gap: 28px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 72px;
+  }
+
+  .footer-block__contacts-bottom-social{
+    width: 216px;
+    height: 24px;
+  }
+
+  .footer-block__contacts-bottom-social img{
+    margin-right: 15px;
+    width: 24px;
+    height: 24px;
+  }
+
+  .logos-mobil{
+    display: none;
+  }
+
+  .footer-block__privacy {
+    display: none;
+  }
+
+  .footer-block2{
+    display: none;
+  }
+
+  .footer-block2__picture{
+    display: none;
+  }
+  
+  .footer-block__privacy-av{
+    display: none;
+  }
+
+  
+.burger-menu-block{
+  width: 360px;
+  height: 780px;
+  /*display: none;*/
+}
+
+.show-menu {
+  transform: translateY(0);
+  display: flex;
+}
+
+
+
+  @media (max-width: 360px){
+    .container{
+      max-width: 327px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin: 0 auto;
+  }
+  
+.footer-block__contacts {
+  width: 234px;
+  height: 146px;
+}
+
+  .header__burger-menu {
+    display: block;
+  }
+
+  .header__menu{
+    display: none;
+  }
+
+  .btn{
+    display: none;
+  }
+
+  .header__logo{
+    width: 128px;
+    height: 24px;
+  }
+
+  .header__logo_logo{
+    width: 128px;
+    height: 24px;
+  }
+
+  .advantages-buttons__active::before {
+    content: url(image/Icon_lego.svg) !important;
+    position: absolute;
+    left: -9px!important;
+    top: 5px;
+    width: 20px;
+    height: 20px;
+    /*
+    background-color: #E8E8E8;
+    border-radius: 50%;
+    */
+    z-index: 5;
+  }
+
+  .banner-block{
+    display: block;
+    height: 692px;
+  }
+
+  .banner-block-left{
+    width: 281px;
+    height: 144px;
+    margin: 0px 23px 29px 23px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 136px;
+  }
+  
+
+  .banner-block-left h1{
+    font-size: 29px;
+    font-weight: 900;
+    line-height: 40px;
+    height: 40px;
+    margin-bottom: 8px;
+  }
+
+  .banner-block-left p{
+    font-size: 19px;
+    font-weight: 900;
+    line-height: 24px;
+    height: 0;
+  }
+
+  .banner-block__logo{
+    width: 280px;
+    height: 56px;
+    margin-top: 16px;
+  }
+
+  .banner-block__logo img{
+    width: 280px;
+    height: 56px;
+  }
+
+  .banner-block-right{
+    width: 288px;
+    height: 224px;
+    margin: 0 24px 0 22px;
+  }
+
+  .banner-block-right__right-content-1 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: left;
+    margin-bottom: 5px;
+  }
+
+.banner-block-right__right-content-3 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: left;
+  }
+
+  .banner-block-right span {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: left;
+  }
+
+  .ellipse::before {
+    width: 8px;
+    height: 8px;
+    left: -24px;
+    top: 9px;
+  }
+  
+  .ellipse2::before {
+    width: 8px;
+    height: 8px;
+    left: -24px;
+    top: 29px;
+  }
+
+  .banner-block-right__button{
+    width: 280pxpx;
+    height: 84px;
+    gap: 12px;
+  }
+
+  .banner-block-right__button-button {
+    width: 280px;
+    height: 56px;
+    padding: 16px 20px 16px 20px;
+    gap: 4px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+  }
+
+  .text{
+    display: none;
+  }
+
+  .advantages-block__title-title{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: center;
+    padding: 60px 16px 40px 16px;
+    margin: 0;
+  }
+
+  .advantages-block__games{
+    height: 401px;
+    display: block;
+  }
+
+  .advantages-block__games-picture{
+    width: 328px;
+    height: 324px;
+  }
+
+  .advantages-block__games-picture img{
+    width: 328px;
+    height: 200px;
+    border-radius: var(--10);
+  }
+
+  .advantages-block__games-picture-tytle{
+    display: block;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: left;
+  }
+
+  .advantages-block__games-picture-text{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+  }
+
+
+  .advantages-block__games-list{
+    display: flex;
+    width: 328px;
+    height: 40px;
+    gap: 30px;
+    margin: 28px 0 0 0;
+  }
+
+  .advantages-buttons__buttons-1{
+    display: block;
+  }
+
+  .advantages-buttons__buttons-2{
+    display: block;
+  }
+
+  .advantages-block__games-list ul{
+    display: flex;
+    width: 188px;
+    height: 24px;
+    gap: 0px;
+    padding-top: 7px;
+    padding-left: 6px;
+  }
+
+  .advantages-block__games-list li{
+    font-size: 0;
+    display: inline;
+    width: 24px;
+    height: 24px;
+    border-radius: 5px 0px 0px 0px;
+    margin-bottom: 0px;
+    padding-left: 12px;
+
+  }
+
+  
+.advantages-block__games-list li:not(:last-child)::after {
+  top: 13px;
+  width: 100%;
+  height: 2px;
+}
+
+.picture{
+  width: 360px;
+  height: 40px;
+  background-image: url(image/Dark_Rectangles2.png);
+}
+
+.picture-block{
+
+  justify-content:unset;
+}
+
+.picture-block__button-wide {
+  width: 328px;
+  height: 56px;
+  position: absolute;
+  bottom: 60px;
+  left: 0px;
+}
+
+
+.picture-block-right__button-button {
+  width: 328px;
+  height: 56px;
+  padding: 16px 20px 16px 20px;
+  gap: 4px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+}
+
+
+
+.logos{
+  display: none;
+}
+
+.logos-mobil{
+  display: block;
+  background-image: url(image/logos-mobil.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 360px;
+  height: 426px;
+  margin: 0 auto;
+}
+
+.picture2{
+  display: none;
+}
+
+.reviews{
+  display: none;
+}
+
+.footer{
+  width: 360px;
+  height: 798px;
+}
+
+.footer-block{
+  flex-direction: column;
+  padding: 60px 0 0 0;
+}
+
+.footer-block__logo p {
+  display: none;
+}
+
+.footer-block__logo {
+  width: 128px;
+  height: 24px;
+}
+
+.footer-block__menu{
+  margin: 40px 0 36px 0;
+  height: 140px;
+}
+
+.footer-block__menu-mns li:nth-child(3),
+.footer-block__menu-mns li:nth-child(4) {
+  display: none;
+}
+
+.footer-block__menu-mn {
+  padding-top: 4px;
+}
+
+.footer-block__contacts-bottom {
+  margin-top: 36px;
+  display: block;
+  width: 328px;
+  height: 66px;
+}
+
+.footer-block__contacts-bottom-social{
+  margin-top: 20px;
+  width: 328px;
+}
+
+.footer-block__contacts-bottom-social img {
+  margin-right: 28px;
+  width: 18px;
+  height: 18px;
+}
+
+.footer-block__privacy{
+  display: block;
+  color: grey;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18.2px;
+  text-align: left;
+  padding-top: 20px;
+  margin-bottom: 0px;
+}
+
+.footer-block__picture{
+  padding-top: 36px;
+
+}
+
+.footer-block__picture img{
+  width: 328px;
+  height: 224px;
+}
+
+.footer-block__contacts{
+  width: 234px;
+  height: 168px;
+}
+
+}
+
+@media only screen and (min-width: 361px) and (max-width: 1439px) {
+  
+  .container{
+    max-width: 680px;
+padding-left: 44px;
+padding-right: 44px;
+margin: 0 auto;
+}
+
+.header__burger-menu {
+  display: block;
+}
+
+.header__menu{
+  display: none;
+}
+
+.btn{
+  display: none;
+}
+
+.header__logo{
+  width: 128px;
+  height: 24px;
+}
+
+.header__logo_logo{
+  width: 128px;
+  height: 24px;
+}
+
+.banner-block{
+  display: block;
+  height: 908px;
+  width: 680px;
+}
+
+.banner-block-left{
+  width: 524px;
+  height: 240px;
+  padding: 160px 78px 64px 78px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.banner-block-left h1{
+  width: 524px;
+  height: 72px;
+  font-family: Raleway;
+  font-size: 56px;
+  font-weight: 900;
+  line-height: 72px;
+  text-align: center;
+  margin-bottom: 4px;
+}
+
+.banner-block-left p{
+  width: 514px;
+  height: 48px;
+  font-family: Raleway;
+  font-size: 35px;
+  font-weight: 900;
+  line-height: 48px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.banner-block__logo{
+  padding: 0;
+  width: 511px;
+  height: 96px;
+}
+
+.banner-block__logo img{
+  width: 511px;
+  height: 95px;
+}
+
+.banner-block-right{
+  width: 391px;
+  height: 286px;
+  padding: 0px 149px 158px 140px;
+}
+
+.banner-block-right__right-content-1 {
+  width: 158px;
+  height: 44px;
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 41.6px;
+  text-align: left;
+
+}
+
+.banner-block-right__right-content-average{
+  width: 349px;
+  height: 92px;
+  margin-bottom: 10px;
+}
+
+.banner-block-right__right-content-3 {
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 23px;
+  text-align: left;
+}
+
+.banner-block-right span {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 23px;
+  text-align: left;
+}
+
+
+.ellipse2::before {
+  top: 25px;
+}
+
+.text{
+  display: none;
+}
+
+
+.advantages-block__title-title{
+  font-family: Raleway;
+  font-size: 37px;
+  font-weight: 700;
+  line-height: 46px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 80px 0 52px 0;
+}
+
+.advantages-block__games-picture{
+  width: 590px;
+  height: 466px;
+}
+
+.advantages-block__games-picture-picture{
+  width: 590px;
+  height: 364px;
+}
+
+.advantages-block__games-picture-tytle{
+display: block;
+font-family: Inter;
+font-size: 20px;
+font-weight: 500;
+line-height: 26px;
+text-align: left;
+margin-bottom: 12px;
+}
+
+.advantages-block__games-picture-text{
+font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+line-height: 22px;
+text-align: left;
+margin: 0;
+}
+
+.advantages-block__games-list{
+  width: 56px;
+  height: 466px;
+  margin-left: 52px;
+}
+
+
+.advantages-block__games-list li{
+  font-size: 0;
+}
+
+.advantages-block__games-list > ul > li{
+  margin-bottom: 53px;
+}
+
+.advantages-block__games-list li:not(:last-child)::after {
+  width: 2px;
+}
+
+.picture{
+  width: 768px;
+  height: 81px;
+  background-image: url(image/Dark_Rectangles2.png);
+}
+
+.picture-block{
+  margin-top: 163px;
+  justify-content:unset;
+}
+
+.picture-block__button-wide {
+  width: 328px;
+  height: 56px;
+  position: absolute;
+  bottom: 60px;
+  left: 0px;
+  left: 35%;
+  transform: translateX(-50%);
+}
+
+
+.picture-block-right__button-button {
+  width: 500px;
+  height: 68px;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: left;
+}
+
+.logos {
+  background-image: url(image/logos-av.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 518px;
+  width: 768px;
+  margin: 0 auto;
+}
+
+.picture2{
+  display: none;
+}
+
+.reviews{
+  display: none;
+}
+
+.footer{
+  width: 768px;
+  height: 799px;
+}
+
+.footer-block {
+  justify-content: start;
+  gap: 113px;
+}
+
+.footer-block__logo{
+  display: none;
+}
+
+.footer-block2{
+  display: block;
+}
+
+.footer-block__picture{
+  display: none;
+}
+
+.footer-block2__picture{
+  display: block;
+}
+
+.footer-block2__picture{
+  width: 680px;
+  height: 257px;
+}
+
+.footer-block2__logo_av_img{
+  width: 192px;
+  height: 35px;
+}
+
+.footer-block__menu {
+  margin-left: 0px;
+}
+
+
+.picture3 {
+  background-image: url(image/Dark_Rectangles3.png);
+  background-size: cover;
+  background-position: center;
+  width: 768px;
+  height: 81px;
+  margin: 0 auto;
+}
+
+.footer-block__privacy-av{
+  display: block;
+  width: 221px;
+  height: 18px;
+  color: grey;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18.2px;
+  text-align: left;
+  margin-top: 52px;
+  
+  
+}
+
+
+}
+
+.burger-menu {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  z-index: 5;
+  width: 360px;
+  height: 780px;
+}
+
+.close {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  cursor: pointer;
+  z-index: 10;
+  font-size: 40px;
+  font-weight: lighter;
+}
+
+/*
+.custom-button {
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  padding: 5px 10px;
+}
+*/
+
+.burger-menu {
+  display: none;
+  top: 0px;
+}
+
+.burger-menu__close {
+  background-image: url('image/burger-menu.svg');
+  background-size: cover;
+  width: 27px;
+  height: 19px;
+  display: none;
+}
+
+.close {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  padding-top: 16px;
+}
+
+.close img {
+  width: 100%;
+  height: 100%;
+}
+
+.burger-menu-block__header{
+  width: 360px;
+  height: 72px;
+}
+
+burger-menu-block__header-logo{
+  width: 128px;
+  height: 24px;
+}
+
+.burger-menu-block__header > div{
+  padding-top: 24px;
+}
+
+.burger-menu-block__menu-mns{
+  width: 328px;
+  height: 188px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  list-style-type: none;
+  margin-top: 24px;
+}
+
+.burger-menu-block__menu-mns a{
+  color: #191919;
+  text-decoration: none;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+  text-align: center;
+}
+
+.burger-menu-block__menu-mns li{
+  width: 328px;
+  height: 60px;
+  text-align: center;
+}
+
+
+.burger-block-right__button-button{
+  width: 328px;
+  height: 52px;
+  padding: 16px 20px 16px 20px;
+  gap: 4px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+  background-color: #191919;
+  border-radius: 12px;
+  color: #fff;
+  text-align: center;
+  border: 0;
+  font-family: Inter;
+}
+
+
